@@ -1,0 +1,42 @@
+{
+  "dali": {
+    "file": "Salvador Dali.jpg",
+    "page": "https://commons.wikimedia.org/wiki/Salvador_Dali.jpg",
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Allan_warren\" title=\"User:Allan warren\">Allan warren</a>",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
+  },
+  "dostoevsky": {
+    "file": "Dostoevskij 1872.jpg",
+    "page": "https://commons.wikimedia.org/wiki/Dostoevskij_1872.jpg",
+    "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Vasily_Perov\" class=\"extiw\" title=\"w:en:Vasily Perov\"><span title=\"Russian painter (1834-1882)\">Vasily Perov</span></a></bdi>",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"http://moscare.com/Dostoevskij_1872.jpg\">http://moscare.com/Dostoevskij_1872.jpg</a>"
+  },
+  "fischer": {
+    "file": "Bobby Fischer 1966 portrait.jpg",
+    "page": "https://commons.wikimedia.org/wiki/Bobby_Fischer_1966_portrait.jpg",
+    "author": "The AP lists \"John Lent\" as the photographer. The other similar photo at the same place is listed as taken by \"Robert Kradin\"",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.worthpoint.com/worthopedia/1966-press-photo-american-chess-3926808491\">[1]</a>, <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.newspapers.com/image/379451652\">[2]</a>, <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.newspapers.com/image/641659487\">[3]</a>, <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.newspapers.com/image/598619034\">[4]</a>, <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.newspapers.com/image/315882114\">[5]</a>, <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.newspapers.com/image/272506509\">[6]</a>, <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.newspapers.com/image/245103746\">[7]</a>"
+  },
+  "zahrawi": {
+    "file": "Al-Zahrawi Portrait.jpg",
+    "page": "https://commons.wikimedia.org/wiki/Al-Zahrawi_Portrait.jpg",
+    "author": "<bdi><a href=\"https://www.wikidata.org/wiki/Q81411358\" class=\"extiw\" title=\"d:Q81411358\"><span title=\"academic researcher in electronics engineering, a university professor in France, and activist in the Wikimedia movement\">Michel Bakni</span></a></bdi>",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "<p>This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Al-Zahrawi_Stamp,_Syria_(1964).jpg\" title=\"File:Al-Zahrawi Stamp, Syria (1964).jpg\">Al-Zahrawi Stamp, Syria (1964).jpg</a><br>\n</p>\n<div style=\"display:table;width:;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;border-collapse:separate;border-spacing:0px;;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Pain.net_logo.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Pain.net_logo.jpg/40px-Pain.net_logo.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"22\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Pain.net_logo.jpg/60px-Pain.net_logo.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"150\" data-file-height=\"150\"></a></span> This  image was created with <a href=\"https://en.wikipedia.org/wiki/en:Paint.NET\" class=\"extiw\" title=\"w:en:Paint.NET\"><span title=\"freeware raster graphics editor software for Microsoft Windows\">Paint.NET</span></a>.</div>"
+  },
+  "elia": {
+    "file": "Elia Abu Madi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/Elia_Abu_Madi.jpg",
+    "author": "poetassigloXXI",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "poetas siglo XXI"
+  }
+}
