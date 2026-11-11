@@ -131,7 +131,7 @@ function showGuessChoice(timedOut=false){
    message.textContent="ما لحقت تكمّل البازل، لكن الصورة الكاملة مش رح تنكشف إلا إذا اخترت. بدك تختبر معرفتك؟";
  } else {
    heading.textContent="اكتملت الصورة!";
-   message.textContent="هل تريدين اختبار ذاكرتك ومحاولة معرفة الشخصية، أم تفضّلين كشف هويتها الآن؟";
+   message.textContent="هل تريد اختبار ذاكرتك ومحاولة معرفة الشخصية، أم تفضّل كشف هويتها الآن؟";
  }
  showScreen("guessChoice");
 } 
