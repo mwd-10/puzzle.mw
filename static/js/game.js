@@ -31,7 +31,7 @@ function isCorrect(raw,ch){const answer=normalize(raw);if(!answer)return false;c
 function updateProgress(){const n=levelIndex+1;$("progressText").textContent=String(n).padStart(2,"0")+" / 10";$("progressBar").style.width=(n*10)+"%";$("levelTitle").textContent="المرحلة "+["الأولى","الثانية","الثالثة","الرابعة","الخامسة","السادسة","السابعة","الثامنة","التاسعة","العاشرة"][levelIndex];$("scoreNow").textContent=score;}
 function startGame(){levelIndex=0;score=0;wins=0;elapsed=0;startedAt=Date.now();loadLevel();}
 function loadLevel(){
- clearInterval(timerId);locked=false;remaining=30;currentOutcome=null;updateProgress();
+ clearInterval(timerId);locked=false;remaining=50;currentOutcome=null;updateProgress();
  const ch=characters[levelIndex];ch.pieces=9+levelIndex;$("pieceCount").textContent=ch.pieces+" قطع";$("timer").classList.remove("urgent");$("timer").querySelector("strong").textContent="50";
  showScreen("game");setupPuzzle(ch);
 }
