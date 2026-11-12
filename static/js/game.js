@@ -13,7 +13,7 @@ const characters = [
 
 const $ = id => document.getElementById(id);
 const screens = ["welcome","game","guessChoice","identify","result","final"];
-let levelIndex=0, score=0, wins=0, startedAt=0, elapsed=0, timerId=null, remaining=30, locked=false, currentOutcome=null;
+let levelIndex=0, score=0, wins=0, startedAt=0, elapsed=0, timerId=null, remaining=50, locked=false, currentOutcome=null;
 let canvas,ctx,board,tiles=[],dragging=null,scale=1;
 const portraitUrls = {};
 const W=1100,H=650,BOARD={x:35,y:45,size:560},TRAY={x:630,y:45,w:435,h:560};
@@ -32,7 +32,7 @@ function updateProgress(){const n=levelIndex+1;$("progressText").textContent=Str
 function startGame(){levelIndex=0;score=0;wins=0;elapsed=0;startedAt=Date.now();loadLevel();}
 function loadLevel(){
  clearInterval(timerId);locked=false;remaining=30;currentOutcome=null;updateProgress();
- const ch=characters[levelIndex];ch.pieces=9+levelIndex;$("pieceCount").textContent=ch.pieces+" قطع";$("timer").classList.remove("urgent");$("timer").querySelector("strong").textContent="30";
+ const ch=characters[levelIndex];ch.pieces=9+levelIndex;$("pieceCount").textContent=ch.pieces+" قطع";$("timer").classList.remove("urgent");$("timer").querySelector("strong").textContent="50";
  showScreen("game");setupPuzzle(ch);
 }
 function startTimer(){clearInterval(timerId);timerId=setInterval(()=>{if(locked)return;remaining--; $("timer").querySelector("strong").textContent=remaining;$("timer").classList.toggle("urgent",remaining<=8);if(remaining<=0){clearInterval(timerId);locked=true;showGuessChoice(true);}},1000);}
