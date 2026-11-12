@@ -10,7 +10,7 @@ const characters = [
  {id:"zahrawi",ar:"أبو القاسم الزهراوي",en:"Al-Zahrawi",field:"الطب والجراحة",accepted:["الزهراوي","ابو القاسم","أبو القاسم"],bio:"طبيب وجراح أندلسي يُعد من أبرز رواد الجراحة في التاريخ. جمع خبراته الطبية في موسوعة «التصريف لمن عجز عن التأليف».",fact:"احتوى كتابه على وصف لأدوات جراحية وطرق علاجية أثّرت في تعليم الطب لقرون.",pieces:12},
  {id:"tufail",ar:"ابن طفيل",en:"Ibn Tufail",field:"الفلسفة والطب والأدب",accepted:["طفيل","ابن طفيل"],bio:"فيلسوف وطبيب أندلسي، جمع بين الفلسفة والطب والأدب. اشتهر بعمله الفلسفي القصصي «حي بن يقظان».",fact:"تُرجمت «حي بن يقظان» إلى لغات أوروبية وأثّرت في تاريخ الأدب الفلسفي.",pieces:16}
 ];
-
+//
 const $ = id => document.getElementById(id);
 const screens = ["welcome","game","guessChoice","identify","result","final"];
 let levelIndex=0, score=0, wins=0, startedAt=0, elapsed=0, timerId=null, remaining=50, locked=false, currentOutcome=null;
